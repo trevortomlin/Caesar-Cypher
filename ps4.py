@@ -76,7 +76,10 @@ def main():
             data = input("Enter your data:")
             data = data.upper()
             word = codebreaker(wordlist, data)
-            print (word)
+            if type(word == None):
+                print ("Not a word")
+            else:
+                print (word)
             break
         else:
             print ("Invalid choice, try again.")
