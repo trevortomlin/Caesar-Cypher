@@ -1,2 +1,2 @@
 # Caesar-Cypher
-A program that shifts the user's to a new value 
+A program that shifts the user's input to a new value 
